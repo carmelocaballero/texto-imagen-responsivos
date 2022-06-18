@@ -3,19 +3,23 @@
   margin: 0 auto;
 }
 #columna-izq {
-  width: 403px;
+  width: 397px;
   float: left;
   background: greenyellow;
+  margin-right: 3px;
+  padding: 1px;
 }
 #columna-der {
-  width: 403px;
-  float: left;
+  width: 397px;
+  float: right;
   background: coral;
+  margin-left: 3px;
+  padding: 1px;
 }
 
 @media screen and (max-width: 805px) {
   #contenedor {
-    width: 100%;
+    width: 98%;
   }
   #columna-izq {
     width: 70%;
